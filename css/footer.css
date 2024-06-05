@@ -1,0 +1,214 @@
+/* footer
+ -----------------------------------------------------*/
+/* module css 01
+ -----------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  .md-mb {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .md-mb {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md-desktop {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .md-desktop {
+    display: none !important;
+  }
+}
+
+.container-main {
+  width: 84.8%;
+  margin: 0 auto;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .container-main {
+    width: 91%;
+  }
+}
+
+.font-size-14 {
+  font-size: -webkit-calc(0.8vw + 1px);
+  font-size: calc(0.8vw + 1px);
+}
+@media screen and (max-width: 768px) {
+  .font-size-14 {
+    font-size: -webkit-calc(1.6vw + 2px);
+    font-size: calc(1.6vw + 2px);
+  }
+}
+
+.utmavo-bold {
+  font-family: "UTMAvoBold";
+}
+
+.smd-register a {
+  display: inline-block;
+  padding: 0.8vw 2vw;
+  background: #F4821F;
+  border-radius: 0.5vw;
+  font-size: -webkit-calc(1.2vw + 1px);
+  font-size: calc(1.2vw + 1px);
+  font-family: "UTMAvoBold";
+}
+@media screen and (max-width: 768px) {
+  .smd-register a {
+    font-size: -webkit-calc(2vw + 2px);
+    font-size: calc(2vw + 2px);
+    padding: 2.3vw 2vw;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 2vw;
+    background: #F4821F;
+    font-size: -webkit-calc(4vw + 1px);
+    font-size: calc(4vw + 1px);
+  }
+}
+
+.page-main {
+  padding: 8vw 0 0;
+}
+@media screen and (max-width: 768px) {
+  .page-main {
+    padding: 18vw 0 0;
+  }
+}
+
+.smd-title {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #114E56;
+  font-size: 3.9vw;
+  font-weight: 700;
+  position: relative;
+  padding: 0 0 0 5vw;
+  background: url(../images/img-title.png) no-repeat left center;
+  -webkit-background-size: 3vw auto;
+          background-size: 3vw auto;
+  margin: 0 0 1vw;
+}
+@media screen and (max-width: 768px) {
+  .smd-title {
+    margin: 0 0 3vw;
+    padding: 0 0 0 10vw;
+    font-size: 11vw;
+    -webkit-background-size: 7vw auto;
+            background-size: 7vw auto;
+  }
+}
+
+.page-footer {
+  background: #114E56;
+  padding: 3vw 0 2vw 0;
+}
+.page-footer strong.contact {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 3vw;
+  display: block;
+  text-align: center;
+}
+.page-footer .bt-meta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-footer .bt-meta .logo {
+  width: 14%;
+}
+.page-footer .bt-meta .logo a {
+  display: block;
+}
+.page-footer .bt-meta .logo a img {
+  width: 100%;
+}
+.page-footer .bt-meta .item {
+  max-width: 40%;
+}
+.page-footer .bt-meta .item a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFF;
+}
+.page-footer .bt-meta .item a:hover {
+  color: #0bb4b7;
+}
+.page-footer .bt-meta .item a.address:hover {
+  color: #FFF;
+}
+.page-footer .bt-meta .item a .img {
+  width: 1.2vw;
+  min-width: 1.2vw;
+}
+.page-footer .bt-meta .item a .img img {
+  width: 100%;
+}
+.page-footer .bt-meta .item a span {
+  padding-left: 1vw;
+}
+@media screen and (max-width: 768px) {
+  .page-footer {
+    padding: 7vw 0 7vw 0;
+  }
+  .page-footer strong.contact {
+    font-size: 10vw;
+    margin: 0 0 4vw;
+  }
+  .page-footer .bt-meta {
+    display: block;
+  }
+  .page-footer .bt-meta .logo {
+    width: 40%;
+  }
+  .page-footer .bt-meta .item {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 2vw;
+  }
+  .page-footer .bt-meta .item a {
+    text-align: left;
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .page-footer .bt-meta .item a .img {
+    width: 4.8vw;
+    min-width: 4.8vw;
+  }
+  .page-footer .bt-meta .item a span {
+    padding-left: 2.6vw;
+  }
+}
