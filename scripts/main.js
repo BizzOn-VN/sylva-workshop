@@ -67,4 +67,5 @@ $(document).mouseup(function(e)
     }
 });
 $('.ui.checkbox').checkbox();
+// $("#popup-success").fancybox().trigger('click');
 

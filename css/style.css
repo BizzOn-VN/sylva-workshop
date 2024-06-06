@@ -656,6 +656,50 @@ input[type=submit] {
   }
 }
 
+p.error {
+  color: red;
+  font-size: -webkit-calc(0.8vw + 1px);
+  font-size: calc(0.8vw + 1px);
+}
+@media screen and (max-width: 768px) {
+  p.error {
+    font-size: -webkit-calc(1.8vw + 2px);
+    font-size: calc(1.8vw + 2px);
+  }
+}
+
+.popup-success {
+  text-align: center;
+  width: 40%;
+  font-family: "UTMAvo";
+}
+.popup-success .icon-success {
+  width: 4em;
+  display: table;
+  margin: 0 auto 1em auto;
+}
+.popup-success h3 {
+  text-align: center;
+  font-size: -webkit-calc(3px + 2.3vw);
+  font-size: calc(3px + 2.3vw);
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  color: #00a604;
+  font-family: "UTMAvoBold";
+}
+.popup-success .info {
+  padding: 0 1vw;
+}
+@media screen and (max-width: 768px) {
+  .popup-success {
+    width: 80%;
+  }
+  .popup-success h3 {
+    font-size: -webkit-calc(4px + 4vw);
+    font-size: calc(4px + 4vw);
+  }
+}
+
 /* header
  -----------------------------------------------------*/
 .page-header {
