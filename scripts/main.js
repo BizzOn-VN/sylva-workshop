@@ -68,4 +68,10 @@ $(document).mouseup(function(e)
 });
 $('.ui.checkbox').checkbox();
 // $("#popup-success").fancybox().trigger('click');
+$(".smd-register a").click(function(){
+	
+	$('html,body').animate({                                                         
+	    scrollTop: $(".blk-register").offset().top-$(".page-header").outerHeight()},
+	    'slow');
+})
 

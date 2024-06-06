@@ -58,6 +58,11 @@
   font-size: -webkit-calc(1.2vw + 1px);
   font-size: calc(1.2vw + 1px);
   font-family: "UTMAvoBold";
+  color: #FFF;
+  cursor: pointer;
+}
+.smd-register a:hover {
+  color: #0bb4b7;
 }
 @media screen and (max-width: 768px) {
   .smd-register a {

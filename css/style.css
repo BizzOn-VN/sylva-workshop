@@ -169,6 +169,7 @@ input[type=submit] {
 }
 .blk-felt .top .info .content {
   padding-left: 0.5vw;
+  padding-right: 4vw;
 }
 .blk-felt .top .info .content p {
   margin: 0;
@@ -196,13 +197,17 @@ input[type=submit] {
     background: none;
   }
   .blk-felt .top {
-    margin: 0 0 3vw;
+    margin: 0 0 5vw;
   }
   .blk-felt .top .thumb {
     display: none;
   }
   .blk-felt .top .info {
+    padding: 0;
     width: 100%;
+  }
+  .blk-felt .top .info .content {
+    padding: 0;
   }
   .blk-felt .top .info strong {
     margin: 0 0 3.5vw;
@@ -1036,6 +1041,11 @@ p.error {
   font-size: -webkit-calc(1.2vw + 1px);
   font-size: calc(1.2vw + 1px);
   font-family: "UTMAvoBold";
+  color: #FFF;
+  cursor: pointer;
+}
+.smd-register a:hover {
+  color: #0bb4b7;
 }
 @media screen and (max-width: 768px) {
   .smd-register a {
