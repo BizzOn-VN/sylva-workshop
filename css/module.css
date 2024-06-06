@@ -85,6 +85,8 @@
 }
 .blk-felt .top .info strong {
   font-family: "UTMAvoBold";
+  display: block;
+  margin: 0 0 1vw;
 }
 .blk-felt .top .info .content {
   padding-left: 0.5vw;
@@ -129,7 +131,7 @@
     padding: 0;
   }
   .blk-felt .top .info strong {
-    margin: 0 0 3.5vw;
+    margin: 0 0 4vw;
     display: block;
   }
   .blk-felt .text-bt {
