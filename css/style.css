@@ -433,6 +433,8 @@ input[type=submit] {
 .blk-register .inner .fl-left form .md-row label {
   color: #929292;
   margin: 0 0 0.15vw;
+  font-size: -webkit-calc(0.8vw + 1px);
+  font-size: calc(0.8vw + 1px);
 }
 .blk-register .inner .fl-left form .md-row input {
   width: 100%;
@@ -440,6 +442,8 @@ input[type=submit] {
   padding: 0 1vw;
   height: 3vw;
   border-radius: 1vw;
+  font-size: -webkit-calc(0.8vw + 1px);
+  font-size: calc(0.8vw + 1px);
   font-family: "UTMAvoBold";
 }
 .blk-register .inner .fl-left form .md-row input::-webkit-input-placeholder {
@@ -478,6 +482,8 @@ input[type=submit] {
   display: block;
   margin: 0 0 0.3vw;
   color: #929292;
+  font-size: -webkit-calc(0.8vw + 1px);
+  font-size: calc(0.8vw + 1px);
 }
 .blk-register .inner .fl-left form .row-bt .checbox {
   display: -webkit-box;
@@ -495,44 +501,33 @@ input[type=submit] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item label {
   position: relative;
   margin: 0;
-  padding-left: 1.5vw;
-  font-size: -webkit-calc(0.8vw + 1px);
-  font-size: calc(0.8vw + 1px);
+  padding-left: 1.2vw;
+  font-size: -webkit-calc(0.8vw + 0px);
+  font-size: calc(0.8vw + 0px);
+  line-height: 1.2em;
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item label:before {
   position: absolute;
-  width: 1.2vw;
-  height: 1.2vw;
+  width: 1vw;
+  height: 1vw;
   border: 1px solid #0056E7;
-  top: 50%;
+  top: 0vw;
   left: 0;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-       -o-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item label:after {
   position: absolute;
   border: 1px solid #0056E7;
   left: 0;
-  width: 1.2vw;
-  height: 1.2vw;
+  width: 1vw;
+  height: 1vw;
   background: #0056E7;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-       -o-transform: translateY(-50%);
-          transform: translateY(-50%);
-  font-size: 1vw;
-  line-height: 1.1vw;
+  top: 0vw;
+  font-size: 0.8vw;
+  line-height: 0.8vw;
   position: absolute;
   color: #FFF;
   font-weight: 400;
@@ -593,11 +588,15 @@ input[type=submit] {
   }
   .blk-register .inner .fl-left form .md-row label {
     margin: 0 0 1vw;
+    font-size: -webkit-calc(2.5vw + 2px);
+    font-size: calc(2.5vw + 2px);
   }
   .blk-register .inner .fl-left form .md-row input {
     height: 10vw;
     padding: 0 2vw;
     border-radius: 2vw;
+    font-size: -webkit-calc(2.5vw + 2px);
+    font-size: calc(2.5vw + 2px);
   }
   .blk-register .inner .fl-left form .md-row input::-webkit-input-placeholder {
     color: #2E2E2E;
@@ -624,8 +623,8 @@ input[type=submit] {
     margin: 0 0 3vw;
   }
   .blk-register .inner .fl-left form .row-bt p.title {
-    font-size: -webkit-calc(2.8vw + 2px);
-    font-size: calc(2.8vw + 2px);
+    font-size: -webkit-calc(2.5vw + 2px);
+    font-size: calc(2.5vw + 2px);
     margin: 0 0 1.5vw;
   }
   .blk-register .inner .fl-left form .row-bt .checbox {
@@ -636,8 +635,8 @@ input[type=submit] {
     margin: 0 0 3vw;
   }
   .blk-register .inner .fl-left form .row-bt .checbox .item label {
-    font-size: -webkit-calc(2.8vw + 2px);
-    font-size: calc(2.8vw + 2px);
+    font-size: -webkit-calc(2.5vw + 2px);
+    font-size: calc(2.5vw + 2px);
     padding-left: 5vw;
   }
   .blk-register .inner .fl-left form .row-bt .checbox .item label:before {
