@@ -232,12 +232,6 @@
   -webkit-background-size: 16vw auto;
           background-size: 16vw auto;
 }
-@media screen and (max-width: 768px) {
-  .group-blk {
-    display: none;
-  }
-}
-
 .blk-work {
   padding: 8vw 0 5vw;
 }
