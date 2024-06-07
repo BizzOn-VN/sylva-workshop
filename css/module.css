@@ -196,6 +196,9 @@
 .blk-imagine .inner .fl-left .text {
   margin: 0 0 1.7vw;
 }
+.blk-imagine .inner .fl-left .text strong {
+  color: #F4821F;
+}
 .blk-imagine .inner .thumb {
   width: 37%;
 }
