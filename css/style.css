@@ -495,13 +495,17 @@ input[type=submit] {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item {
-  width: 32%;
+  width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 0 0.3em;
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item label {
   position: relative;
@@ -621,7 +625,7 @@ input[type=submit] {
     padding: 1vw 0 2vw;
   }
   .blk-register .inner .fl-left form .row-bt {
-    margin: 0 0 3vw;
+    margin: 0 0 5vw;
   }
   .blk-register .inner .fl-left form .row-bt p.title {
     font-size: -webkit-calc(2.5vw + 2px);
@@ -633,7 +637,7 @@ input[type=submit] {
   }
   .blk-register .inner .fl-left form .row-bt .checbox .item {
     width: 100%;
-    margin: 0 0 3vw;
+    margin: 0 0 2vw;
   }
   .blk-register .inner .fl-left form .row-bt .checbox .item label {
     font-size: -webkit-calc(2.5vw + 2px);
