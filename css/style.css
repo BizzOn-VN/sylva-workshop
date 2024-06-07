@@ -426,7 +426,7 @@ input[type=submit] {
   width: 57%;
   border: 1px dashed #CFD9DB;
   border-radius: 1.4vw;
-  padding: 1.5vw;
+  padding: 1.5vw 1.5vw 2.3vw 1.5vw;
 }
 .blk-register .inner .fl-left form .md-row {
   margin: 0 0 1vw;
@@ -434,8 +434,8 @@ input[type=submit] {
 .blk-register .inner .fl-left form .md-row label {
   color: #929292;
   margin: 0 0 0.15vw;
-  font-size: -webkit-calc(0.8vw + 1px);
-  font-size: calc(0.8vw + 1px);
+  font-size: -webkit-calc(1vw + 1px);
+  font-size: calc(1vw + 1px);
 }
 .blk-register .inner .fl-left form .md-row input {
   width: 100%;
@@ -483,8 +483,9 @@ input[type=submit] {
   display: block;
   margin: 0 0 0.3vw;
   color: #929292;
-  font-size: -webkit-calc(0.8vw + 1px);
-  font-size: calc(0.8vw + 1px);
+  font-size: -webkit-calc(1vw + 1px);
+  font-size: calc(1vw + 1px);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .blk-register .inner .fl-left form .row-bt .checbox {
   display: -webkit-box;
@@ -505,14 +506,15 @@ input[type=submit] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 0 0.3em;
+  margin: 0 0 0.7em;
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item label {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   position: relative;
   margin: 0;
   padding-left: 1.2vw;
-  font-size: -webkit-calc(0.8vw + 0px);
-  font-size: calc(0.8vw + 0px);
+  font-size: -webkit-calc(1.1vw + 0px);
+  font-size: calc(1.1vw + 0px);
   line-height: 1.2em;
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item label:before {
@@ -520,7 +522,7 @@ input[type=submit] {
   width: 1vw;
   height: 1vw;
   border: 1px solid #0056E7;
-  top: 0vw;
+  top: 0.2vw;
   left: 0;
 }
 .blk-register .inner .fl-left form .row-bt .checbox .item label:after {
@@ -530,7 +532,7 @@ input[type=submit] {
   width: 1vw;
   height: 1vw;
   background: #0056E7;
-  top: 0vw;
+  top: 0.2vw;
   font-size: 0.8vw;
   line-height: 0.8vw;
   position: absolute;
@@ -640,8 +642,8 @@ input[type=submit] {
     margin: 0 0 2vw;
   }
   .blk-register .inner .fl-left form .row-bt .checbox .item label {
-    font-size: -webkit-calc(2.5vw + 2px);
-    font-size: calc(2.5vw + 2px);
+    font-size: -webkit-calc(2.8vw + 2px);
+    font-size: calc(2.8vw + 2px);
     padding-left: 5vw;
   }
   .blk-register .inner .fl-left form .row-bt .checbox .item label:before {
@@ -665,6 +667,7 @@ p.error {
   color: red;
   font-size: -webkit-calc(0.8vw + 1px);
   font-size: calc(0.8vw + 1px);
+  display: none;
 }
 @media screen and (max-width: 768px) {
   p.error {
