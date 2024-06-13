@@ -75,3 +75,18 @@ $(".smd-register a").click(function(){
 	    'slow');
 })
 
+
+
+$('.blk-network .owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:3
+        }
+    }
+})
