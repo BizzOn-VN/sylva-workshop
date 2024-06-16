@@ -36,13 +36,13 @@
 }
 
 .font-size-14 {
-  font-size: -webkit-calc(0.8vw + 1px);
-  font-size: calc(0.8vw + 1px);
+  font-size: -webkit-calc(0.9vw + 1px);
+  font-size: calc(0.9vw + 1px);
 }
 @media screen and (max-width: 768px) {
   .font-size-14 {
-    font-size: -webkit-calc(1.6vw + 2px);
-    font-size: calc(1.6vw + 2px);
+    font-size: -webkit-calc(3.2vw + 2px);
+    font-size: calc(3.2vw + 2px);
   }
 }
 
@@ -57,13 +57,69 @@
   }
 }
 
+.font-size-24 {
+  font-size: -webkit-calc(1.28vw + 3px);
+  font-size: calc(1.28vw + 3px);
+}
+@media screen and (max-width: 768px) {
+  .font-size-24 {
+    font-size: -webkit-calc(3.6vw + 2px);
+    font-size: calc(3.6vw + 2px);
+  }
+}
+
 .utmavo-bold {
   font-family: "UTMAvoBold";
 }
 
+.color-white {
+  color: #FFF;
+}
+
+.mg-0 {
+  margin: 0;
+}
+
+.color-orange {
+  color: #FDBF0F;
+}
+
+.color-black {
+  color: #000;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.p-dotted {
+  position: relative;
+  padding-left: 0.8vw;
+}
+.p-dotted:before {
+  content: "";
+  width: 0.25em;
+  height: 0.25em;
+  display: block;
+  border-radius: 50%;
+  background: #2E2E2E;
+  position: absolute;
+  left: 0;
+  top: 0.7vw;
+}
+@media screen and (max-width: 768px) {
+  .p-dotted {
+    padding-left: 5vw;
+  }
+  .p-dotted:before {
+    top: 2.5vw;
+    left: 1.9vw;
+  }
+}
+
 .smd-register a {
   display: inline-block;
-  padding: 0.8vw 2vw;
+  padding: 1.1vw 2vw;
   background: #F4821F;
   border-radius: 0.5vw;
   font-size: -webkit-calc(1.2vw + 1px);
@@ -73,25 +129,28 @@
   cursor: pointer;
 }
 .smd-register a:hover {
-  color: #0bb4b7;
+  color: green;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 @media screen and (max-width: 768px) {
   .smd-register a {
     font-size: -webkit-calc(2vw + 2px);
     font-size: calc(2vw + 2px);
-    padding: 2.3vw 2vw;
+    padding: 4vw 2vw 4.2vw 2vw;
     display: block;
     width: 100%;
     text-align: center;
     border-radius: 2vw;
     background: #F4821F;
-    font-size: -webkit-calc(4vw + 1px);
-    font-size: calc(4vw + 1px);
+    font-size: -webkit-calc(4.5vw + 1px);
+    font-size: calc(4.5vw + 1px);
   }
 }
 
 .page-main {
-  padding: 8vw 0 0;
+  padding: 11vw 0 0;
 }
 @media screen and (max-width: 768px) {
   .page-main {
@@ -106,7 +165,7 @@
   font-size: 3.2vw;
   font-weight: 700;
   position: relative;
-  padding: 0 0 0 5vw;
+  padding: 0 0 0 4.5vw;
   background: url(../images/img-title.png) no-repeat left center;
   -webkit-background-size: 3vw auto;
           background-size: 3vw auto;
@@ -116,7 +175,7 @@
   .smd-title {
     margin: 0 0 3vw;
     padding: 0 0 0 10vw;
-    font-size: 8vw;
+    font-size: 6.9vw;
     -webkit-background-size: 7vw auto;
             background-size: 7vw auto;
   }
@@ -135,7 +194,7 @@
   .n-title {
     margin: 0 0 4vw;
     text-align: center;
-    font-size: 7.7vw;
+    font-size: 6.9vw;
     -webkit-background-size: 7vw auto;
             background-size: 7vw auto;
   }
