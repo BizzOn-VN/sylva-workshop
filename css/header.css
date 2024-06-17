@@ -131,6 +131,7 @@
   margin: 0;
 }
 .page-header .contact ul li a {
+  cursor: pointer;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -223,6 +224,7 @@
           justify-content: space-between;
 }
 .main-nav ul li a {
+  cursor: pointer;
   color: #2E2E2E;
 }
 .main-nav ul li a:hover {

@@ -90,3 +90,12 @@ $('.blk-network .owl-carousel').owlCarousel({
         }
     }
 })
+$(".main-nav ul li a").click(function(){
+    var dataid=$(this).attr("data-id");
+    $('html,body').animate({                                                         
+        scrollTop: $(dataid).offset().top-$(".page-header").outerHeight()},
+        'slow');
+    $(".main-nav").removeClass("active");
+})
+
+
