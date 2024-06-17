@@ -358,6 +358,7 @@
   bottom: -4.4vw;
 }
 .blk-imagine .top {
+  margin: 0 0 2vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
