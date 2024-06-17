@@ -475,6 +475,9 @@ input[type=submit] {
 .blk-imagine .top .thumb video {
   width: 100%;
 }
+.blk-imagine .top .thumb iframe {
+  width: 100%;
+}
 .blk-imagine .bot {
   display: -webkit-box;
   display: -webkit-flex;
