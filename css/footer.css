@@ -68,8 +68,23 @@
   }
 }
 
+.font-size-36 {
+  font-size: -webkit-calc(2.2vw + 3px);
+  font-size: calc(2.2vw + 3px);
+}
+@media screen and (max-width: 768px) {
+  .font-size-36 {
+    font-size: -webkit-calc(4.9vw + 2px);
+    font-size: calc(4.9vw + 2px);
+  }
+}
+
 .utmavo-bold {
   font-family: "UTMAvoBold";
+}
+
+.color-blue {
+  color: #114E56;
 }
 
 .color-white {
@@ -166,7 +181,7 @@
   font-weight: 700;
   position: relative;
   padding: 0 0 0 4.5vw;
-  background: url(../images/img-title.png) no-repeat left center;
+  background: url(../images/img-title.png) no-repeat left top 0.6vw;
   -webkit-background-size: 3vw auto;
           background-size: 3vw auto;
   margin: 0 0 1vw;
@@ -176,6 +191,7 @@
     margin: 0 0 3vw;
     padding: 0 0 0 10vw;
     font-size: 6.9vw;
+    background: url(../images/img-title.png) no-repeat left top 0.9vw;
     -webkit-background-size: 7vw auto;
             background-size: 7vw auto;
   }
