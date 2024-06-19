@@ -69,13 +69,13 @@
 }
 
 .font-size-36 {
-  font-size: -webkit-calc(2.2vw + 3px);
-  font-size: calc(2.2vw + 3px);
+  font-size: -webkit-calc(2.2vw + 3px) !important;
+  font-size: calc(2.2vw + 3px) !important;
 }
 @media screen and (max-width: 768px) {
   .font-size-36 {
-    font-size: -webkit-calc(4.9vw + 2px);
-    font-size: calc(4.9vw + 2px);
+    font-size: -webkit-calc(4.9vw + 2px) !important;
+    font-size: calc(4.9vw + 2px) !important;
   }
 }
 

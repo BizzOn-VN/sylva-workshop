@@ -44,7 +44,7 @@ $(".icon-search").click(function(){
   $(".page-header .meta-center form").addClass("active");
 })
 $(".page-header .contact .title").click(function(){
-  $(".page-header .contact ul").addClass("active");
+  $(".page-header .contact ul").toggleClass("active");
 })
 $(document).mouseup(function(e) 
 {
@@ -87,6 +87,19 @@ $('.blk-network .owl-carousel').owlCarousel({
         },
         768:{
             items:3
+        }
+    }
+})
+$('.ssc-gla').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
         }
     }
 })
