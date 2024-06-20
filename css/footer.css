@@ -180,10 +180,10 @@
   font-size: 2.5vw;
   font-weight: 700;
   position: relative;
-  padding: 0 0 0 4vw;
+  padding: 0 0 0 3.4vw;
   background: url(../images/img-title.png) no-repeat left top 0.4vw;
-  -webkit-background-size: 2.5vw auto;
-          background-size: 2.5vw auto;
+  -webkit-background-size: 2.2vw auto;
+          background-size: 2.2vw auto;
   margin: 0 0 1vw;
 }
 @media screen and (max-width: 768px) {
@@ -201,7 +201,7 @@
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   color: #114E56;
-  font-size: 2.5vw;
+  font-size: 2.2vw;
   font-weight: 700;
   position: relative;
   margin: 0 0 2vw;
