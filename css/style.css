@@ -364,12 +364,6 @@ input[type=submit] {
   color: #F4821F;
   font-family: "UTMAvoBold";
 }
-@media screen and (min-width: 768px) {
-  .blk-network .n-title {
-    font-size: -webkit-calc(2.2vw + 3px) !important;
-    font-size: calc(2.2vw + 3px) !important;
-  }
-}
 .blk-network .img-caption {
   text-align: center;
   margin: 0 0 1.5vw;
@@ -1685,8 +1679,8 @@ p.error {
 }
 
 .font-size-36 {
-  font-size: -webkit-calc(2.2vw + 3px) !important;
-  font-size: calc(2.2vw + 3px) !important;
+  font-size: -webkit-calc(1.9vw + 3px) !important;
+  font-size: calc(1.9vw + 3px) !important;
 }
 @media screen and (max-width: 768px) {
   .font-size-36 {

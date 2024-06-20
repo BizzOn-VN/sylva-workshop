@@ -275,12 +275,6 @@
   color: #F4821F;
   font-family: "UTMAvoBold";
 }
-@media screen and (min-width: 768px) {
-  .blk-network .n-title {
-    font-size: -webkit-calc(2.2vw + 3px) !important;
-    font-size: calc(2.2vw + 3px) !important;
-  }
-}
 .blk-network .img-caption {
   text-align: center;
   margin: 0 0 1.5vw;
