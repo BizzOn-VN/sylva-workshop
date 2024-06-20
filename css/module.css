@@ -561,6 +561,12 @@
 .blk-imagine .top .thumb iframe {
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .blk-imagine .top .thumb iframe {
+    width: 110%;
+    height: 29vw;
+  }
+}
 .blk-imagine .bot {
   display: -webkit-box;
   display: -webkit-flex;
