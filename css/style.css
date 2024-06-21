@@ -181,7 +181,7 @@ input[type=submit] {
 }
 
 .blk-intro {
-  margin: 0 0 5.5vw;
+  margin: 0vw 0 1.5vw;
 }
 .blk-intro .container-main {
   background: #EEF3FB;
@@ -213,6 +213,10 @@ input[type=submit] {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .blk-context .inner .fl-left {
   width: 70%;
@@ -448,7 +452,7 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
   .blk-network {
     background: none;
-    padding: 4vw 0 6vw;
+    padding: 4vw 0 2vw;
     margin: 0;
   }
   .blk-network .img-caption {
@@ -490,10 +494,10 @@ input[type=submit] {
   background-image: -webkit-linear-gradient(#FFF, #fffffe);
   background-image: -o-linear-gradient(#FFF, #fffffe);
   background-image: linear-gradient(#FFF, #fffffe);
-  padding: 4vw 0 3vw;
+  padding: 4vw 0 6vw;
   background: url(../images/figure-1.png) no-repeat right top;
-  -webkit-background-size: 15vw auto;
-          background-size: 15vw auto;
+  -webkit-background-size: 12vw auto;
+          background-size: 12vw auto;
 }
 .blk-felt .top {
   margin: 0 0 2vw;
@@ -547,7 +551,7 @@ input[type=submit] {
 }
 @media screen and (max-width: 768px) {
   .blk-felt {
-    padding: 6vw 0 4vw;
+    padding: 4vw 0 4vw;
     background: none;
   }
   .blk-felt .top {
@@ -586,6 +590,7 @@ input[type=submit] {
 }
 
 .blk-imagine {
+  margin: 4vw 0 8vw;
   background: #133F45;
   padding: 3vw 0 3vw;
   position: relative;
@@ -764,7 +769,7 @@ input[type=submit] {
 }
 
 .blk-work {
-  padding: 8vw 0 1vw;
+  padding: 4vw 0 1vw;
 }
 .blk-work .inner {
   display: -webkit-box;
@@ -790,7 +795,7 @@ input[type=submit] {
 }
 @media screen and (max-width: 768px) {
   .blk-work {
-    padding: 8vw 0 5vw;
+    padding: 2vw 0 5vw;
   }
   .blk-work .inner {
     display: block;
