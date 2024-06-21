@@ -726,6 +726,9 @@ input[type=submit] {
   .blk-imagine .top .fl-left .text {
     margin: 0 0 5vw;
   }
+  .blk-imagine .top .fl-left .text p {
+    text-align: justify;
+  }
   .blk-imagine .top .fl-left .text strong {
     margin: 0 0 1.2vw;
   }
@@ -743,6 +746,7 @@ input[type=submit] {
     padding: 4vw 3vw;
     border-radius: 0.6em;
     margin: 0 0 8vw;
+    text-align: justify;
   }
 }
 
