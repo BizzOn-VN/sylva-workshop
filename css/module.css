@@ -134,6 +134,15 @@
 }
 .blk-context .inner .fl-left .text {
   margin: 0 0 2vw;
+  text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .blk-context .inner .fl-left .text p {
+    margin: 0 0 2.5vw;
+  }
+  .blk-context .inner .fl-left .text p:last-child {
+    margin: 0;
+  }
 }
 .blk-context .inner .fl-left .context {
   background: #F6F2EB;
@@ -161,13 +170,20 @@
   width: 77%;
 }
 .blk-context .inner .fl-right-tca {
-  width: 23%;
+  width: 26%;
 }
 .blk-context .inner .fl-right-tca .thumb {
-  margin: 0 0 1vw;
+  margin: 0 0 0.5vw;
 }
 .blk-context .inner .fl-right-tca .thumb img {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .blk-context .inner .fl-right-tca .thumb img {
+    width: 59%;
+    display: table;
+    margin: 0 auto;
+  }
 }
 .blk-context .inner .fl-right-tca .info p {
   margin: 0 0 0.2vw;
@@ -200,6 +216,9 @@
   .blk-context .inner .fl-right-tca {
     width: 100%;
     margin: 0 0 4vw;
+  }
+  .blk-context .inner .fl-right-tca .thumb {
+    margin: 0 0 3vw;
   }
 }
 
