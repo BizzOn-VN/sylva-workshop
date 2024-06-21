@@ -136,6 +136,10 @@ input[type=submit] {
 .blk-caption .inner .fl-left .text img {
   width: 100%;
 }
+.blk-caption .inner .fl-left .text .info {
+  margin: 1vw 0 0;
+  text-align: justify;
+}
 .blk-caption .inner .thumb {
   width: 41%;
 }
@@ -168,6 +172,9 @@ input[type=submit] {
   .blk-caption .inner .fl-left .img .logo {
     width: 28%;
     padding-left: 7vw;
+  }
+  .blk-caption .inner .fl-left .text .info {
+    margin: 4vw 0 0;
   }
   .blk-caption .inner .thumb {
     position: relative;
