@@ -123,6 +123,7 @@
   display: inline-block;
   border-radius: 0.5vw;
   margin: 0 0 0.5vw;
+  cursor: pointer;
 }
 .page-header .contact ul li {
   margin: 0 0 0.3vw;
@@ -164,7 +165,7 @@
     width: 32%;
   }
   .page-header .contact strong.title {
-    padding: 3vw 1vw 3vw 1vw;
+    padding: 1.7vw 1vw 1.7vw 1vw;
     font-size: 3.5vw;
     border-radius: 2vw;
     width: 100%;
@@ -285,4 +286,9 @@
 }
 .icon-search img {
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .icon-search.md-mb {
+    display: none !important;
+  }
 }

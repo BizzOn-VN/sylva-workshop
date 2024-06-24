@@ -44,7 +44,10 @@ $(".icon-search").click(function(){
   $(".page-header .meta-center form").addClass("active");
 })
 $(".page-header .contact .title").click(function(){
-  $(".page-header .contact ul").toggleClass("active");
+    
+    $('html,body').animate({                                                         
+        scrollTop: $(".blk-register").offset().top-$(".page-header").outerHeight()},
+        'slow');
 })
 $(document).mouseup(function(e) 
 {
