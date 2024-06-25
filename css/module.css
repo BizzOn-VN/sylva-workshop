@@ -1285,6 +1285,11 @@ p.error {
   text-orientation: mixed;
   z-index: 5;
 }
+@media screen and (max-width: 768px) {
+  .register-icon {
+    display: none;
+  }
+}
 
 .popup-register {
   width: 80%;
