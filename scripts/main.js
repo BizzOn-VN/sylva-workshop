@@ -44,10 +44,10 @@ $(".icon-search").click(function(){
   $(".page-header .meta-center form").addClass("active");
 })
 $(".page-header .contact .title").click(function(){
-    
-    $('html,body').animate({                                                         
-        scrollTop: $(".blk-register").offset().top-$(".page-header").outerHeight()},
-        'slow');
+    $("#popup-register").fancybox().trigger('click');
+})
+$(".register-icon").click(function(){
+    $("#popup-register").fancybox().trigger('click');
 })
 $(document).mouseup(function(e) 
 {
@@ -70,7 +70,7 @@ $(document).mouseup(function(e)
     }
 });
 $('.ui.checkbox').checkbox();
-// $("#popup-success").fancybox().trigger('click');
+
 $(".smd-register a").click(function(){
 	
 	$('html,body').animate({                                                         
