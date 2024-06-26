@@ -1400,7 +1400,7 @@ p.error {
 @media screen and (max-width: 768px) {
   .popup-register {
     width: 90%;
-    padding: 20px 20px 20px 20px;
+    padding: 35px 20px 20px 20px;
   }
   .popup-register .blk-register .inner .fl-right {
     margin: 0 0 0;
@@ -1412,7 +1412,7 @@ p.error {
     margin: 0 0 1.5vw;
   }
   .popup-register .blk-register .inner .fl-left form .md-row input {
-    height: 6vw;
+    height: 9vw;
   }
 }
 
@@ -1531,7 +1531,7 @@ p.error {
   }
 }
 .page-header .contact {
-  width: 18%;
+  width: 23%;
 }
 .page-header .contact strong.title {
   background: #FDBF0F;
@@ -1542,6 +1542,7 @@ p.error {
   border-radius: 0.5vw;
   margin: 0 0 0.5vw;
   cursor: pointer;
+  white-space: nowrap;
 }
 .page-header .contact ul li {
   margin: 0 0 0.3vw;
@@ -1580,10 +1581,10 @@ p.error {
 }
 @media screen and (max-width: 768px) {
   .page-header .contact {
-    width: 32%;
+    width: 50%;
   }
   .page-header .contact strong.title {
-    padding: 1.7vw 1vw 1.7vw 1vw;
+    padding: 2vw 1vw 2vw 1vw;
     font-size: 3.5vw;
     border-radius: 2vw;
     width: 100%;

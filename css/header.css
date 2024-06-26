@@ -113,7 +113,7 @@
   }
 }
 .page-header .contact {
-  width: 18%;
+  width: 23%;
 }
 .page-header .contact strong.title {
   background: #FDBF0F;
@@ -124,6 +124,7 @@
   border-radius: 0.5vw;
   margin: 0 0 0.5vw;
   cursor: pointer;
+  white-space: nowrap;
 }
 .page-header .contact ul li {
   margin: 0 0 0.3vw;
@@ -162,10 +163,10 @@
 }
 @media screen and (max-width: 768px) {
   .page-header .contact {
-    width: 32%;
+    width: 50%;
   }
   .page-header .contact strong.title {
-    padding: 1.7vw 1vw 1.7vw 1vw;
+    padding: 2vw 1vw 2vw 1vw;
     font-size: 3.5vw;
     border-radius: 2vw;
     width: 100%;
