@@ -1897,7 +1897,7 @@ p.error {
 }
 
 .page-main {
-  padding: 11vw 0 0;
+  padding: 10vw 0 0;
 }
 @media screen and (max-width: 768px) {
   .page-main {
