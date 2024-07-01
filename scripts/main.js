@@ -113,5 +113,17 @@ $(".main-nav ul li a").click(function(){
         'slow');
     $(".main-nav").removeClass("active");
 })
-
+$('.slider-banner').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        }
+    }
+})
 

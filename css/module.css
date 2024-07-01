@@ -1326,3 +1326,21 @@ p.error {
     height: 9vw;
   }
 }
+
+.slider-banner.owl-theme .owl-dots .owl-dot.active span {
+  background: #FDBF0F;
+}
+.slider-banner .owl-dots {
+  position: absolute;
+  bottom: 0.5vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+@media screen and (max-width: 768px) {
+  .slider-banner .owl-dots {
+    bottom: 2vw;
+  }
+}
