@@ -1,8 +1,6 @@
 .blk-caption {
   position: relative;
   background: #EEF3FB;
-  border-radius: 4vw;
-  margin: 0 0 2vw;
 }
 @media screen and (min-width: 768px) {
   .blk-caption .container-main {
@@ -11,7 +9,6 @@
 }
 .blk-caption .inner {
   padding: 6vw 0vw 4vw 0vw;
-  border-radius: 0 0 3vw 3vw;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -63,7 +60,6 @@
   .blk-caption {
     background: #EEF3FB;
     border-radius: 0;
-    margin: 0 0 8vw;
   }
   .blk-caption .inner {
     background: none;
@@ -1327,17 +1323,22 @@ p.error {
   }
 }
 
+.slider-banner.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
 .slider-banner.owl-theme .owl-dots .owl-dot.active span {
   background: #FDBF0F;
 }
-.slider-banner .owl-dots {
-  position: absolute;
-  bottom: 0.5vw;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-       -o-transform: translateX(-50%);
-          transform: translateX(-50%);
+@media screen and (min-width: 768px) {
+  .slider-banner .owl-dots {
+    position: absolute;
+    bottom: 0.5vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
 }
 @media screen and (max-width: 768px) {
   .slider-banner .owl-dots {
