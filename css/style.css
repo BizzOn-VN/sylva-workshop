@@ -1443,7 +1443,7 @@ p.error {
 .page-header {
   position: fixed;
   z-index: 4;
-  padding: 1vw 0;
+  padding: 0.8vw 0;
   background: #FFF;
   width: 100%;
 }
@@ -1454,7 +1454,7 @@ p.error {
 }
 @media screen and (min-width: 768px) {
   .page-header.header-fixed .logo {
-    width: 12%;
+    width: 10%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1477,7 +1477,7 @@ p.error {
           align-items: center;
 }
 .page-header .logo {
-  width: 14%;
+  width: 12%;
 }
 .page-header .logo a {
   display: block;
