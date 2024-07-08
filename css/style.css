@@ -1454,7 +1454,7 @@ p.error {
 }
 @media screen and (min-width: 768px) {
   .page-header.header-fixed .logo {
-    width: 10%;
+    width: 6%;
   }
 }
 @media screen and (max-width: 768px) {
