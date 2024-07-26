@@ -2058,3 +2058,89 @@ p.error {
     padding-left: 2.6vw;
   }
 }
+.color-yellow{
+  color: #FFD126;
+}
+.poup-sale{
+  padding: 0;
+  width: 34%;
+  position: relative;
+  text-align: center;
+}
+.poup-sale img.bg{
+  width: 100%;
+}
+.poup-sale .content{
+  color: #FFF;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+   top: 50%;
+    transform: translate(-50%,-50%);
+}
+.poup-sale .button-register{
+  width: 24vw;
+}
+.poup-sale .blk{
+  
+  border-radius: 0.5em;
+  margin: 0 0 0.5em;
+  background: none;
+  text-align: center;
+  border: 1px solid #FFF;
+  border-bottom: none;
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.4);
+}
+ .poup-sale .blk .inner{
+  box-shadow: -1px -1px 1px #FFF;
+ }
+ .poup-sale .top{
+    margin: 0 0 1em;
+ }
+ .poup-sale  p{
+  margin-bottom: 0.2em;
+ }
+ .poup-sale .blk .color-white{
+  font-size: 0.8vw;
+   font-family: "Be Vietnam Pro", sans-serif;
+ }
+.poup-sale .color-yellow{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+.poup-sale .text-1,.text-3{
+  font-size: 1.5vw;
+   font-family: "Libre Bodoni", serif;
+}
+.poup-sale .text-2{
+   font-family: "Londrina Solid", sans-serif;
+   font-weight: 700;
+  font-size: 2.9vw;
+  line-height: 1em;
+}
+.poup-sale .fancybox-button svg{
+  color: #FFF;
+}
+@media screen and (max-width: 768px) {
+  .poup-sale{
+    width: 90%;
+  }
+  .poup-sale .text-1, .text-3{
+    font-size: 2.2vw;
+  }
+  .poup-sale .blk .color-white{
+    font-size: 2.2vw;
+  }
+  .poup-sale .color-yellow{
+    font-size: 3.5vw;
+  }
+  .poup-sale .button-register{
+    width: 90%;
+  }
+  .poup-sale .content{
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
