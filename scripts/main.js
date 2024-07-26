@@ -129,4 +129,4 @@ $('.slider-banner').owlCarousel({
     }
 })
 
-$("#poup-sale").fancybox().trigger('click');
+// $("#poup-sale").fancybox().trigger('click');
