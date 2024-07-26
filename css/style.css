@@ -2059,7 +2059,7 @@ p.error {
   }
 }
 .color-yellow{
-  color: #FFD126;
+  color: #F4B81A;
 }
 .poup-sale{
   padding: 0;
@@ -2089,35 +2089,51 @@ p.error {
   text-align: center;
   border: 1px solid #FFF;
   border-bottom: none;
-  padding: 1.5em;
+  padding: 0.5em 1.2em;
   background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px -1px 1px -1px red;
 }
  .poup-sale .blk .inner{
   box-shadow: -1px -1px 1px #FFF;
  }
  .poup-sale .top{
-    margin: 0 0 1em;
+    margin-bottom: 1.3em;
+    margin-top: -1.3em;
  }
  .poup-sale  p{
   margin-bottom: 0.2em;
  }
  .poup-sale .blk .color-white{
   font-size: 0.8vw;
-   font-family: "Be Vietnam Pro", sans-serif;
+/*   font-family: "Be Vietnam Pro", sans-serif;*/
+ }
+ .poup-sale  .top .text-1{
+  margin-bottom: 0.3em;
+
  }
 .poup-sale .color-yellow{
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: bold;
+/*  font-family: "Be Vietnam Pro", sans-serif;*/
+  font-family: "UTMAvoBold";
   font-size: 1.2vw;
-}
-.poup-sale .text-1,.text-3{
-  font-size: 1.5vw;
-   font-family: "Libre Bodoni", serif;
+  color: #F4B81A;
+  
 }
 .poup-sale .text-2{
-   font-family: "Londrina Solid", sans-serif;
-   font-weight: 700;
-  font-size: 2.9vw;
+  font-family: "UTMAvoBold";
+}
+.poup-sale .text-2,.text-3{
+  margin: 0;
+  font-size: 1.4vw;
+  line-height: 1.2em;
+/*   font-family: "Libre Bodoni", serif;*/
+}
+.poup-sale .hl{
+  text-decoration: underline;
+}
+.poup-sale .text-1{
+/*   font-family: "Londrina Solid", sans-serif;*/
+   font-family: "UTMAvoBold";
+  font-size: 2.2vw;
   line-height: 1em;
 }
 .poup-sale .fancybox-button svg{
@@ -2127,14 +2143,17 @@ p.error {
   .poup-sale{
     width: 90%;
   }
-  .poup-sale .text-1, .text-3{
-    font-size: 2.2vw;
+  .poup-sale .top .text-1{
+    font-size: 5.9vw;
+  }
+  .poup-sale .text-2, .text-3{
+    font-size: 3.7vw;
   }
   .poup-sale .blk .color-white{
     font-size: 2.2vw;
   }
   .poup-sale .color-yellow{
-    font-size: 3.5vw;
+    font-size: 3.7vw;
   }
   .poup-sale .button-register{
     width: 90%;
