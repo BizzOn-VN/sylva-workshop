@@ -817,7 +817,17 @@ input[type=submit] {
   width: 100%;
 }
 .blk-work .inner .info {
-  width: 60%;
+  width: 65%;
+
+}
+@media screen and (min-width: 768px) {
+   .blk-work .inner .info {
+    display: flex;
+    align-items: center;
+  }
+}
+.blk-work .inner .info .ctn-inner {
+  
 }
 .blk-work .inner .info .text {
   margin: 0 0 2vw;
@@ -2182,7 +2192,7 @@ p.error {
   padding: 0.6vw 2vw;
 }
 .blk-uu-dai .list .item .color-yellow{
-  color: #FDBF0F;
+  color: #f9c121;
   font-family: "UTMAvoBold";
 }
 .blk-uu-dai .list .item .hl{
