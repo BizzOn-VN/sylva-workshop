@@ -2371,4 +2371,10 @@ p.error {
     width: 100%;
     margin-bottom: 10px;
   }*/
+  .blk-uu-dai .md-row .md-col-2 h6{
+    font-size: calc(4.2vw + 2px);
+  }
+  .blk-uu-dai .md-row .md-col-2 p{
+    font-size: calc(3.5vw + 2px);
+  }
 }
