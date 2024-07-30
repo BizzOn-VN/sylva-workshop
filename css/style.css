@@ -2220,6 +2220,9 @@ p.error {
 .blk-uu-dai .md-row p{
   margin-bottom: 0.5vw;
 }
+.blk-uu-dai .smd-register a{
+  margin-left: 32%;
+}
 .blk-uu-dai .md-row p.md-text-1{
   font-size: calc(1.3vw + 1px);
   color: #333;
@@ -2231,7 +2234,7 @@ p.error {
   width: 32%;
   color: #333;
   border-radius: 8px;
-  padding: 10px 0px;
+  padding: 0px 0px 10px 0px;
 }
 .blk-uu-dai .md-row .md-col-1 h6{
   text-align: center;
@@ -2376,5 +2379,8 @@ p.error {
   }
   .blk-uu-dai .md-row .md-col-2 p{
     font-size: calc(3.5vw + 2px);
+  }
+  .blk-uu-dai .smd-register a{
+    margin-left: 0%;
   }
 }
