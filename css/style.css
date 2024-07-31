@@ -2378,3 +2378,126 @@ p.error {
     font-size: calc(3.5vw + 2px);
   }
 }
+
+
+.poup-cca{
+  width: 60%;
+  padding: 44px 6vw;
+  display: none;
+}
+.poup-cca .top{
+  margin: 0 0 2vw;
+}
+.poup-cca .p-list{
+  margin: 0.2vw auto 0.5vw auto;
+  display: table;
+}
+.poup-cca strong{
+  font-size: calc(1.2vw + 2px);
+  display: block;
+  text-align: center;
+}
+.p-checked{
+  position: relative;
+  padding-left: 1.5vw;
+  margin: 0;
+}
+.p-checked:before{
+  content: "";
+  width: 1vw;
+  height: 1vw;
+  display: block;
+  background: #33c036;
+  border: 1px solid #423232;
+  position: absolute;
+  left: 0;
+  top: 0.3vw;
+}
+.p-checked:after{
+  content: '\e800';
+  color: #FFF;
+  font-family: Checkbox;
+  font-size: 0.7vw;
+  display: block;
+  position: absolute;
+  left: 0.15vw;
+  top: 0.05vw;
+  font-weight: 300;
+}
+.poup-cca .info h3{
+  color: #114E56;
+  margin: 0;
+}
+.poup-cca .hl-size{
+  font-size: 0.9vw;
+  color: #114E56;
+}
+.poup-cca  .list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2vw;
+}
+.poup-cca  .list .item{
+  animation: po-animation 5s infinite;
+  text-align: center;
+  background: #FDBF0F;
+  width: 49.2%;
+  border-radius: 0.3em;
+  padding: 2em 1em;
+}
+.poup-cca  .list .item-2{
+  animation-delay: 1s;
+}
+.poup-cca  .list .item h6{
+      font-size: calc(1.5vw + 1px);
+}
+.poup-cca  .list .item p{
+  margin: 0;
+ color: #114E56;
+ font-family: "UTMAvoBold";
+}
+.poup-cca  .list .item p span{
+  color: #FF0000;
+}
+@media screen and (max-width: 768px) {
+  .poup-cca{
+    padding: 44px 4vw;
+  }
+  .poup-cca p{
+    font-size: calc(2.6vw + 2px);
+  }
+  .poup-cca {
+    width: 93%;
+  }
+  .poup-cca strong{
+    font-size: calc(4.6vw + 2px);
+  }
+  .p-checked{
+    padding-left: 5vw;
+  }
+  .p-checked:before{
+    width: 2.9vw;
+    height: 2.9vw;
+    top: 1vw;
+  }
+  .p-checked:after{
+    font-size: 1.9vw;
+    top: 0.5vw;
+    left: 0.5vw;
+  }
+  .poup-cca .list .item p span{
+    display: block;
+  }
+  .poup-cca .info h3{
+    font-size: calc(4.6vw + 2px);
+  }
+  .poup-cca .hl-size{
+    font-size: calc(2.6vw + 2px);
+  }
+  .poup-cca .list .item{
+    padding: 3vw 2vw;
+  }
+  .poup-cca .list .item h6{
+     font-size: calc(3.5vw + 2px);
+  }
+}
