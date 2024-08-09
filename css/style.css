@@ -2543,7 +2543,12 @@ p.error {
 .blk-fak .inner .item .text{
   text-align: justify;
 }
-
+.tai-video{
+  color: #4296a6;
+  text-decoration: underline;
+  display: table;
+  margin: 0 auto;
+}
 @media screen and (max-width: 768px) {
   .blk-fak{
     margin: 0 0 1em;
