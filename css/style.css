@@ -2544,8 +2544,7 @@ p.error {
   text-align: justify;
 }
 .tai-video{
-  color: #4296a6;
-  text-decoration: underline;
+/*  color: #4296a6;*/
   display: table;
   margin: 0 auto;
 }
