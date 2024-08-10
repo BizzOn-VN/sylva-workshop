@@ -787,7 +787,7 @@ input[type=submit] {
 }
 
 .blk-group-2 {
-  background: url(../images/figure-1.png) no-repeat right top 8vw;
+  background: url(../images/figure-1.png) no-repeat right top 23vw;
   -webkit-background-size: 16vw auto;
           background-size: 16vw auto;
 }
@@ -2561,7 +2561,8 @@ p.error {
 }
 @media screen and (max-width: 768px) {
   .blk-fak{
-    margin: 0 0 1em;
+    margin: 0 0 0em;
+    padding: 2em 0 0;
   }
   .blk-fak .inner{
     display: block;
