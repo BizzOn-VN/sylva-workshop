@@ -128,5 +128,18 @@ $('.slider-banner').owlCarousel({
         }
     }
 })
-
-$("#poup-sale").fancybox().trigger('click');
+$('.blk-fak .owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:3
+        }
+    }
+})
+// $("#poup-sale").fancybox().trigger('click');
+// $("#poup-cca").fancybox().trigger('click');
