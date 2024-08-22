@@ -2781,6 +2781,7 @@ p.error {
   }
   .blk-team .list .item .director{
     margin: 0 0 3vw;
+    font-size: calc(3.2vw + 0px);
   }
   .blk-team .list .item .text{
     margin: 0 0 5vw;
