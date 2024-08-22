@@ -2572,7 +2572,7 @@ p.error {
 .blk-fak .inner .ts-video{
   width: 93%;
 }
-.blk-fak .inner .ts-video iframe{
+.blk-fak .inner .ts-video video{
   width: 100%;
   height: 16.8vw;
   margin: 0 0 0.5em;
@@ -2638,7 +2638,7 @@ p.error {
   .blk-fak .inner .ts-video{
     width: 100%;
   }
-  .blk-fak .inner .ts-video iframe{
+  .blk-fak .inner .ts-video video{
     height: 54vw;
   }
   .blk-fak .inner .item .avatar{
@@ -2651,22 +2651,24 @@ p.error {
 }
 .blk-team .list{
 /*  display: flex;*/
-  width: 70%;
+  width: 72%;
   justify-content:space-around;
   margin: 0 auto;
 }
 .blk-team .list .item{
   display: inline-block;
-  margin-right: 3%;
-  width: 48.5%;
+  margin-right: 5%;
+  width: 47.5%;
   float: left;
-  padding: 3vw 1vw 1.5vw 1vw ;
+  padding: 3vw 0vw 1.5vw 0vw ;
+  background-color: rgba(17, 78, 86, 0.1);
+/*  min-height: 44vw;*/
 }
 .blk-team .list .item:last-child{
   margin-right: 0px;
 }
 .blk-team .list .item .inner-item{
-  background-color: rgba(17, 78, 86, 0.1);
+  
   position: relative;
   padding: 17vw 0 1vw 0 ;
   height: 100%;
@@ -2720,12 +2722,10 @@ p.error {
   padding: 0 1.2vw;
   text-align: left;
   margin: 0 0 1vw;
+  text-align: justify;
 }
-.blk-team .list .item .text p{
-  overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+.blk-team .list .item .text .p-more{
+  display: none;
 }
 .blk-team .list .item .info.more .text p{
    overflow: initial;
@@ -2759,6 +2759,9 @@ p.error {
   .blk-team{
     padding: 2em 0 0;
   }
+  .blk-team .list .item .text{
+    padding: 0 3vw;
+  }
   .blk-team .list{
     width: 100%;
     display: block;
@@ -2766,9 +2769,11 @@ p.error {
   .blk-team .list .item{
     width: 100%;
     margin: 0;
+    background-color: initial;
   }
   .blk-team .list .item .inner-item{
     padding: 58vw 0 4vw 0;
+    background-color: rgba(17, 78, 86, 0.1);
   }
   .blk-team .list .item .name{
     padding: 2.7vw 0;
