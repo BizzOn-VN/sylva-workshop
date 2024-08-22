@@ -142,22 +142,25 @@ $('.blk-fak .owl-carousel').owlCarousel({
         }
     }
 })
-$('.blk-team  .owl-carousel').owlCarousel({
-    loop:false,
-    margin:0,
-    nav:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        768:{
-            items:2
-        }
-    }
-})
+// $('.blk-team  .owl-carousel').owlCarousel({
+//     loop:false,
+//     margin:0,
+//     nav:false,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         768:{
+//             items:2
+//         }
+//     }
+// })
 $(".more-text").click(function(){
     $(this).parent(".text").addClass("more");
     $(this).addClass("hide")
+})
+$(".gg-more").click(function(){
+    $(this).parent(".info").toggleClass("more");
 })
 // $("#poup-sale").fancybox().trigger('click');
 // $("#poup-cca").fancybox().trigger('click');
