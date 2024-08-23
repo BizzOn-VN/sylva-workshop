@@ -1423,8 +1423,8 @@ p.error {
 }
 
 .popup-register {
-  width: 80%;
-  max-width: 690px;
+  width: 65%;
+/*  max-width: 690px;*/
 }
 .popup-register .blk-register {
   padding: 0;
