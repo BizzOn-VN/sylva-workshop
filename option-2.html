@@ -325,188 +325,188 @@
           </a>
         </div>
         <div class="w-0 flex-auto mx-4 lg:mx-12 max-lg:flex max-lg:justify-end">
-          <div class="flex gap-5 text-color text-sm max-w-full overflow-hidden whitespace-nowrap max-lg:hidden uppercase">
+          <div class="flex gap-5 text-color text-sm max-w-full whitespace-nowrap max-lg:hidden uppercase">
             <a href="/en" class="hover:underline hover:text-primary"> Home </a
             ><a href="/en/about" class="hover:underline hover:text-primary font-bold text-primary"> About SYLVA </a
             ><a href="/en/the-sylva-way" class="hover:underline hover:text-primary"> SYLVA WAY </a
             ><a href="/en/about#why-sylva" class="hover:underline hover:text-primary"> Why SYLVA </a
             ><a href="/en/resources" class="hover:underline hover:text-primary"> Resources </a
             ><a href="/en/workshop" class="hover:underline hover:text-primary"> Workshop &amp; Event </a>
+            <div class="language-selector" tabindex="0">
+                   <button title="Select Language" type="button" class="lang-select-btn"></button>
+                   <ul class="lang-select-content"></ul>
+               </div>
+               <style>
+                 .language-selector {
+                   position: relative;
+                   display: inline-block;
+                 }
+
+                 .lang-select-btn {
+                   background-color: rgb(253 191 15 / var(--tw-bg-opacity));
+                   min-width: 130px;
+                   width: max-content;
+                   height: 30px;
+                   border-radius: 5px;
+                   color: white;
+                   padding: 10px;
+                   font-size: 16px;
+                   border: none;
+                   cursor: pointer;
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-between;
+                 }
+
+                 .lang-select-btn img {
+                   margin: 0 5px 0 0;
+                   width: 28px;
+                 }
+
+                 .arrow-down {
+                   width: 0;
+                   height: 0;
+                   display: inline-block;
+                   vertical-align: middle;
+                   border-style: solid;
+                   border-width: 4px 4px 0 4px;
+                   border-color: #fff transparent transparent transparent;
+                   margin: 0 0 0 5px;
+                 }
+
+                 .lang-select-btn:hover {
+                   background-color: rgb(253 191 15 / var(--tw-bg-opacity));
+                 }
+
+                 .lang-select-content {
+                   display: none;
+                   position: absolute;
+                   margin: 1px 0 0 0;
+                   padding: 0;
+                   background-color: #f5f5f5;
+                   min-width: 160px;
+                   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                   z-index: 1;
+                   border-radius: 5px;
+                   overflow-y: scroll;
+                   max-height: 315px;
+                   -ms-overflow-style: none;
+                   scrollbar-width: none;
+                 }
+
+                 .lang-select-content::-webkit-scrollbar {
+                   display: none;
+                 }
+
+                 .lang-select-content li {
+                   color: black;
+                   padding: 5px 10px;
+                   text-decoration: none;
+                   justify-content: start;
+                   flex-direction: row-reverse;
+                   display: flex;
+                   align-items: center;
+                   font-size: 14px;
+                   font-weight: 500;
+                 }
+
+                 .lang-select-content li img {
+                   width: 28px;
+                   margin: 0 10px 0 0;
+                 }
+
+                 .lang-select-content li:hover {
+                   background-color: #f1f1f1;
+                   cursor: pointer;
+                   color: blue;
+                   border-radius: 5px;
+                 }
+
+                 .language-selector:focus-within .lang-select-content {
+                   display: block;
+                 }
+
+                 @keyframes slideIn {
+                   from {
+                     opacity: 0;
+                     transform: translateY(-10px);
+                   }
+                   to {
+                     opacity: 1;
+                     transform: translateY(0);
+                   }
+                 }
+
+                 .lang-select-content {
+                   animation: slideIn 0.3s ease-out;
+                 }
+
+                 ::-webkit-scrollbar {
+                   width: 8px;
+                   height: 10px;
+                 }
+
+                 ::-webkit-scrollbar-thumb {
+                   border-radius: 8px;
+                   background: #c2c9d2;
+                 }
+
+               </style>
+               <script>
+                 const locales = ["en-GB",  "vi-VN",];
+
+                 function getFlagSrc(countryCode) {
+                   return /^[A-Z]{2}$/.test(countryCode)
+                     ? `https://flagsapi.com/${countryCode.toUpperCase()}/shiny/64.png`
+                     : "";
+                 }
+
+                 function initializeLanguageSelector(languageSelector) {
+                   const dropdownBtn = languageSelector.querySelector(".lang-select-btn");
+                   const dropdownContent = languageSelector.querySelector(".lang-select-content");
+
+                   function setSelectedLocale(locale) {
+                     const intlLocale = new Intl.Locale(locale);
+                     const langName = new Intl.DisplayNames([locale], { type: "language" }).of(intlLocale.language);
+
+                     dropdownContent.innerHTML = "";
+
+                     const otherLocales = locales.filter((loc) => loc !== locale);
+                     otherLocales.forEach((otherLocale) => {
+                       const otherIntlLocale = new Intl.Locale(otherLocale);
+                       const otherLangName = new Intl.DisplayNames([locale], { type: "language" }).of(otherIntlLocale.language);
+
+                       const listEl = document.createElement("li");
+                       listEl.innerHTML = `${otherLangName}<img src="${getFlagSrc(otherIntlLocale.region)}" />`;
+                       listEl.value = otherLocale;
+                       listEl.addEventListener("click", function () {
+                         setSelectedLocale(otherLocale);
+                       });
+                       dropdownContent.appendChild(listEl);
+                     });
+
+                     dropdownBtn.innerHTML = `<img src="${getFlagSrc(intlLocale.region)}" />${langName}<span class="arrow-down"></span>`;
+                   }
+
+                   setSelectedLocale(locales[0]);
+                   const browserLang = new Intl.Locale(navigator.language).language;
+                   for (const locale of locales) {
+                     const localeLang = new Intl.Locale(locale).language;
+                     if (localeLang === browserLang) {
+                       setSelectedLocale(locale);
+                     }
+                   }
+                 }
+
+                 // Initialize all language selectors
+                 document.querySelectorAll('.language-selector').forEach(initializeLanguageSelector);
+
+
+               </script>
           </div>
         </div>
         <div class="flex lg:flex-col items-start gap-2 relative">
-          <div class="language-selector" tabindex="0">
-                 <button title="Select Language" type="button" class="lang-select-btn"></button>
-                 <ul class="lang-select-content"></ul>
-             </div>
-             <style>
-               .language-selector {
-                 position: relative;
-                 display: inline-block;
-                 padding-right: 40px;
-               }
-
-               .lang-select-btn {
-                 background-color: rgb(253 191 15 / var(--tw-bg-opacity));
-                 min-width: 130px;
-                 width: max-content;
-                 height: 40px;
-                 border-radius: 5px;
-                 color: white;
-                 padding: 10px;
-                 font-size: 16px;
-                 border: none;
-                 cursor: pointer;
-                 display: flex;
-                 align-items: center;
-                 justify-content: space-between;
-               }
-
-               .lang-select-btn img {
-                 margin: 0 5px 0 0;
-                 width: 28px;
-               }
-
-               .arrow-down {
-                 width: 0;
-                 height: 0;
-                 display: inline-block;
-                 vertical-align: middle;
-                 border-style: solid;
-                 border-width: 4px 4px 0 4px;
-                 border-color: #fff transparent transparent transparent;
-                 margin: 0 0 0 5px;
-               }
-
-               .lang-select-btn:hover {
-                 background-color: rgb(253 191 15 / var(--tw-bg-opacity));
-               }
-
-               .lang-select-content {
-                 display: none;
-                 position: absolute;
-                 margin: 1px 0 0 0;
-                 padding: 0;
-                 background-color: #f5f5f5;
-                 min-width: 160px;
-                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-                 z-index: 1;
-                 border-radius: 5px;
-                 overflow-y: scroll;
-                 max-height: 315px;
-                 -ms-overflow-style: none;
-                 scrollbar-width: none;
-               }
-
-               .lang-select-content::-webkit-scrollbar {
-                 display: none;
-               }
-
-               .lang-select-content li {
-                 color: black;
-                 padding: 12px 16px;
-                 text-decoration: none;
-                 justify-content: start;
-                 flex-direction: row-reverse;
-                 display: flex;
-                 align-items: center;
-                 font-size: 14px;
-                 font-weight: 500;
-               }
-
-               .lang-select-content li img {
-                 width: 28px;
-                 margin: 0 10px 0 0;
-               }
-
-               .lang-select-content li:hover {
-                 background-color: #f1f1f1;
-                 cursor: pointer;
-                 color: blue;
-                 border-radius: 5px;
-               }
-
-               .language-selector:focus-within .lang-select-content {
-                 display: block;
-               }
-
-               @keyframes slideIn {
-                 from {
-                   opacity: 0;
-                   transform: translateY(-10px);
-                 }
-                 to {
-                   opacity: 1;
-                   transform: translateY(0);
-                 }
-               }
-
-               .lang-select-content {
-                 animation: slideIn 0.3s ease-out;
-               }
-
-               ::-webkit-scrollbar {
-                 width: 8px;
-                 height: 10px;
-               }
-
-               ::-webkit-scrollbar-thumb {
-                 border-radius: 8px;
-                 background: #c2c9d2;
-               }
-
-             </style>
-             <script>
-               const locales = ["en-GB",  "vi-VN",];
-
-               function getFlagSrc(countryCode) {
-                 return /^[A-Z]{2}$/.test(countryCode)
-                   ? `https://flagsapi.com/${countryCode.toUpperCase()}/shiny/64.png`
-                   : "";
-               }
-
-               function initializeLanguageSelector(languageSelector) {
-                 const dropdownBtn = languageSelector.querySelector(".lang-select-btn");
-                 const dropdownContent = languageSelector.querySelector(".lang-select-content");
-
-                 function setSelectedLocale(locale) {
-                   const intlLocale = new Intl.Locale(locale);
-                   const langName = new Intl.DisplayNames([locale], { type: "language" }).of(intlLocale.language);
-
-                   dropdownContent.innerHTML = "";
-
-                   const otherLocales = locales.filter((loc) => loc !== locale);
-                   otherLocales.forEach((otherLocale) => {
-                     const otherIntlLocale = new Intl.Locale(otherLocale);
-                     const otherLangName = new Intl.DisplayNames([locale], { type: "language" }).of(otherIntlLocale.language);
-
-                     const listEl = document.createElement("li");
-                     listEl.innerHTML = `${otherLangName}<img src="${getFlagSrc(otherIntlLocale.region)}" />`;
-                     listEl.value = otherLocale;
-                     listEl.addEventListener("click", function () {
-                       setSelectedLocale(otherLocale);
-                     });
-                     dropdownContent.appendChild(listEl);
-                   });
-
-                   dropdownBtn.innerHTML = `<img src="${getFlagSrc(intlLocale.region)}" />${langName}<span class="arrow-down"></span>`;
-                 }
-
-                 setSelectedLocale(locales[0]);
-                 const browserLang = new Intl.Locale(navigator.language).language;
-                 for (const locale of locales) {
-                   const localeLang = new Intl.Locale(locale).language;
-                   if (localeLang === browserLang) {
-                     setSelectedLocale(locale);
-                   }
-                 }
-               }
-
-               // Initialize all language selectors
-               document.querySelectorAll('.language-selector').forEach(initializeLanguageSelector);
-
-
-             </script>
+          
         </div>
         <div class="flex lg:flex-col items-start gap-2 relative">
           <div class="flex items-center">
