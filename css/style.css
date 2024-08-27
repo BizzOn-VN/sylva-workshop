@@ -751,7 +751,7 @@ input[type=submit] {
   border-radius: 0.8em;
 }
 .blk-imagine .bot .fl-right .info p{
-  margin: 0;
+  margin: 0 0 .7em;
 }
 @media screen and (max-width: 768px) {
   .blk-imagine {
@@ -2671,7 +2671,7 @@ p.error {
   
   position: relative;
   padding: 17vw 0 1vw 0 ;
-  height: 100%;
+/*  height: 100%;*/
 }
 .blk-team .list .item .avatar{
   position: absolute;
@@ -2732,7 +2732,7 @@ p.error {
    display: block;
 }
 .blk-team .list .item .cg-more{
-  border: 2px solid #F4821F;
+/*  border: 2px solid #F4821F;*/
   color: #F4821F;
   display: inline-block;
   padding: 0.7vw 3vw;
@@ -2741,7 +2741,7 @@ p.error {
 }
 
 .blk-team .list .item .cg-hide{
-  border: 2px solid #F4821F;
+/*  border: 2px solid #F4821F;*/
   color: #F4821F;
   display: inline-block;
   padding: 0.7vw 3vw;
