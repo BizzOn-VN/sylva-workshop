@@ -22,7 +22,9 @@ jQuery(document).on("ready",function () {
 	
 });
 
-
+$('.ui.dropdown')
+  .dropdown()
+;
 window.onscroll = function() {
 	if (document.documentElement.scrollTop > $(".page-header").outerHeight()) {
 	  $(".page-header").addClass("header-fixed")
@@ -164,3 +166,7 @@ $(".gg-more").click(function(){
 })
 // $("#poup-sale").fancybox().trigger('click');
 // $("#poup-cca").fancybox().trigger('click');
+
+$('.ui.dropdown')
+  .dropdown()
+;
