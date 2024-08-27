@@ -2660,7 +2660,7 @@ p.error {
   margin-right: 5%;
   width: 47.5%;
   float: left;
-  padding: 3vw 0vw 1.5vw 0vw ;
+  padding: 3vw 0vw 0.5vw 0vw ;
   background-color: rgba(17, 78, 86, 0.1);
 /*  min-height: 44vw;*/
 }
@@ -2721,7 +2721,7 @@ p.error {
 .blk-team .list .item .text{
   padding: 0 1.2vw;
   text-align: left;
-  margin: 0 0 1vw;
+  margin: 0 0 0vw;
   text-align: justify;
 }
 .blk-team .list .item .text .p-more{
@@ -2735,7 +2735,7 @@ p.error {
 /*  border: 2px solid #F4821F;*/
   color: #F4821F;
   display: inline-block;
-  padding: 0.7vw 3vw;
+  padding: 0vw 3vw;
   border-radius: 1em;
   cursor: pointer;
 }
@@ -2744,7 +2744,7 @@ p.error {
 /*  border: 2px solid #F4821F;*/
   color: #F4821F;
   display: inline-block;
-  padding: 0.7vw 3vw;
+  padding: 0vw 3vw;
   border-radius: 1em;
   cursor: pointer;
   display: none;
