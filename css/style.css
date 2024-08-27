@@ -749,6 +749,7 @@ input[type=submit] {
   background: #FFF;
   padding: 1.5vw;
   border-radius: 0.8em;
+  text-align: justify;
 }
 .blk-imagine .bot .fl-right .info p{
   margin: 0 0 .7em;
