@@ -327,10 +327,7 @@ input[type=submit] {
   border: 1px solid #CFD9DB;
   padding: 2vw;
   border-radius: 1.5vw;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+ 
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
@@ -340,7 +337,7 @@ input[type=submit] {
           flex-flow: row-reverse wrap;
 }
 .blk-introduce .inner .fl-left {
-  width: 68%;
+  width: 100%;
   text-align: justify;
 }
 .blk-introduce .inner .fl-left .title {
@@ -348,15 +345,17 @@ input[type=submit] {
   margin: 0 0 1vw;
 }
 @media screen and (min-width: 768px) {
-  .blk-introduce .inner .fl-left .title {
+ /* .blk-introduce .inner .fl-left .title {
     font-size: 1.36vw;
-  }
+  }*/
 }
 .blk-introduce .inner .fl-left .text {
   text-align: justify;
 }
 .blk-introduce .inner .fl-right {
-  width: 25%;
+  width: 80%;
+  display: table;
+  margin: 0 auto;
 }
 .blk-introduce .inner .fl-right img {
   width: 100%;
@@ -386,7 +385,7 @@ input[type=submit] {
 }
 
 .blk-network {
-  margin: 0 0 1vw;
+  margin: 0 0 3vw;
 }
 .blk-network .n-title {
   text-transform: initial;
@@ -2295,7 +2294,7 @@ p.error {
   border-radius: 8px;
   padding: 25px 0px;
   position: relative;
-  animation: po-animation 5s infinite;
+/*  animation: po-animation 5s infinite;*/
 }
 @keyframes po-animation{
   0%   {transform: scale(1);}
