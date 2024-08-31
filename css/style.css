@@ -2311,7 +2311,7 @@ p.error {
 }
 .blk-uu-dai .md-row .md-col-6{
   float: right;
-  animation: po-animation 5s infinite;
+/*  animation: po-animation 5s infinite;*/
   animation-delay: 1s;
 }
 .blk-uu-dai .sale-off{
