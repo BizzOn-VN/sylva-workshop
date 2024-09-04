@@ -2101,12 +2101,75 @@ p.error {
     padding-left: 2.6vw;
   }
 }
-.poup-sale{
-  display: none;
+.popup-slider{
+  width: 45%;
   padding: 0;
-  width: 34%;
+}
+.popup-slider .owl-carousel{
+  width: 100%;
+}
+.popup-slider .owl-carousel .owl-nav .owl-prev span{
+  display: none;
+}
+.popup-slider .owl-carousel .owl-nav .owl-next span{
+  display: none;
+}
+.popup-slider .owl-theme .owl-nav{
+  margin: 0;
+}
+.popup-slider .owl-carousel .owl-nav .owl-prev{
+  background: url(../images/icon-prev-black.png) no-repeat center;
+  width: 2vw;
+  height: 2vw;
+  background-size: 100% auto;
+  position: absolute;
+  left: 0.7em;
+  top: 50%;
+  transform: translateY(-50%);
+  outline: none;
+}
+.popup-slider .owl-carousel .owl-nav .owl-next{
+  background: url(../images/icon-next-black.png) no-repeat center;
+  width: 2vw;
+  height: 2vw;
+  background-size: 100% auto;
+  position: absolute;
+  right: 0.7em;
+  top: 50%;
+  transform: translateY(-50%);
+  outline: none;
+}
+.popup-slider .fancybox-button svg path{
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .popup-slider{
+    width: 100%;
+/*    padding: 44px 0px 0px 0px;*/
+  }
+  .fancybox-button svg path{
+
+  }
+  .popup-slider .owl-carousel .owl-nav .owl-next{
+    width: 5vw;
+    height: 5vw;
+    right: 0.2em;
+  }
+  .popup-slider .owl-carousel .owl-nav .owl-prev{
+    width: 5vw;
+    height: 5vw;
+    left: 0.2em;
+  }
+}
+.poup-sale{
+/*  display: none;*/
+  height: 44.55vw;
+  padding: 0;
+  width: 100%;
   position: relative;
   text-align: center;
+  background: url(../images/bg-popup.jpg);
+  background-size: cover;
 }
 .poup-sale img.bg{
   width: 100%;
@@ -2114,7 +2177,9 @@ p.error {
 .poup-sale .content{
   color: #FFF;
   width: 80%;
-  position: absolute;
+/*  display: table;*/
+  margin: 0 auto;
+position: absolute;
   left: 50%;
    top: 50%;
     transform: translate(-50%,-50%);
@@ -2139,7 +2204,7 @@ p.error {
  }
  .poup-sale .top{
     margin-bottom: 1.3em;
-    margin-top: -1.3em;
+/*    margin-top: -1.3em;*/
  }
  .poup-sale  p{
   margin-bottom: 0.2em;
@@ -2185,7 +2250,8 @@ p.error {
 }
 @media screen and (max-width: 768px) {
   .poup-sale{
-    width: 90%;
+    width: 100%;
+    height: 100vw;
   }
   .poup-sale .top .text-1{
     font-size: 5.9vw;
