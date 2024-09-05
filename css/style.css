@@ -2102,6 +2102,17 @@ p.error {
     padding-left: 2.6vw;
   }
 }
+.item-ct img{
+  margin: 0 0 2em;
+}
+.popup-slider .smd-register a{
+  background: #f0c456;
+  color: #45512f;
+  text-transform: uppercase;
+}
+.popup-slider.fancybox-content{
+  background: none;
+}
 .popup-slider{
   width: 40%;
   padding: 0;
@@ -2141,7 +2152,7 @@ p.error {
 }
 .popup-slider .owl-theme .owl-dots{
   position: absolute;
-  bottom: 0em;
+  bottom: 4em;
   left: 50%;
   transform: translateX(-50%);
 }
