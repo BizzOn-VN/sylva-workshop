@@ -16,10 +16,10 @@
 
 })( jQuery );
 function clk_function1(){
-     window.open(' https://online.vietnam2030.vn/?utm_source=sylva ', '_blank');
+     window.open('https://docs.google.com/forms/d/e/1FAIpQLScFLRSVmFgce0SlDVNdCIX8cKrvYYaXQutIh0Q85mvhJUNsjg/viewform  ', '_blank');
 }
 function clk_function(){
-     window.open('https://docs.google.com/forms/d/e/1FAIpQLScFLRSVmFgce0SlDVNdCIX8cKrvYYaXQutIh0Q85mvhJUNsjg/viewform', '_blank');
+     window.open('https://online.vietnam2030.vn/?utm_source=sylva', '_blank');
 }
 
 $('.close-btn').on('click', function(e) {
