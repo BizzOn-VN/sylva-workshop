@@ -2114,7 +2114,7 @@ p.error {
   background: none;
 }
 .popup-slider{
-  width: 40%;
+  width: 35%;
   padding: 0;
 }
 .popup-slider .owl-carousel{
@@ -2152,7 +2152,7 @@ p.error {
 }
 .popup-slider .owl-theme .owl-dots{
   position: absolute;
-  bottom: 4em;
+  bottom: 5.6em;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -2191,7 +2191,7 @@ p.error {
 }
 .poup-sale{
 /*  display: none;*/
-  height: 39.60vw;
+  height: 40.60vw;
   padding: 0;
   width: 100%;
   position: relative;
@@ -2278,7 +2278,7 @@ position: absolute;
 @media screen and (max-width: 768px) {
   .poup-sale{
     width: 100%;
-    height: 100vw;
+    height: 123.5vw;
   }
   .poup-sale .top .text-1{
     font-size: 5.9vw;
