@@ -15,7 +15,12 @@
   });
 
 })( jQuery );
-
+function clk_function1(){
+     window.open(' https://online.vietnam2030.vn/?utm_source=sylva ', '_blank');
+}
+function clk_function(){
+     window.open('https://docs.google.com/forms/d/e/1FAIpQLScFLRSVmFgce0SlDVNdCIX8cKrvYYaXQutIh0Q85mvhJUNsjg/viewform', '_blank');
+}
 $('#popup-slider .owl-carousel').owlCarousel({
     loop:false,
     margin:0,
