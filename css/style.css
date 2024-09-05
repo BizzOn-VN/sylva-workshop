@@ -2128,6 +2128,22 @@ p.error {
   transform: translateY(-50%);
   outline: none;
 }
+.popup-slider .owl-theme .owl-dots .owl-dot span{
+  width: 0.7em;
+  height: 0.7em;
+  margin: 0.2em;
+  background: #D9D9D9;
+}
+.popup-slider .owl-theme .owl-dots .owl-dot.active span{
+  
+  background: #FDBF0F;
+}
+.popup-slider .owl-theme .owl-dots{
+  position: absolute;
+  bottom: 0em;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .popup-slider .owl-carousel .owl-nav .owl-next{
   background: url(../images/icon-next-black.png) no-repeat center;
   width: 2vw;
@@ -2188,7 +2204,6 @@ position: absolute;
   width: 24vw;
 }
 .poup-sale .blk{
-  
   border-radius: 0.9em;
   margin: 0 0 0.5em;
   background: none;
