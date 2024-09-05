@@ -1424,6 +1424,7 @@ p.error {
 
 .popup-register {
   width: 65%;
+  z-index: 1000;
 /*  max-width: 690px;*/
 }
 .popup-register .blk-register {
@@ -2102,7 +2103,7 @@ p.error {
   }
 }
 .popup-slider{
-  width: 45%;
+  width: 40%;
   padding: 0;
 }
 .popup-slider .owl-carousel{
@@ -2179,7 +2180,7 @@ p.error {
 }
 .poup-sale{
 /*  display: none;*/
-  height: 44.55vw;
+  height: 39.60vw;
   padding: 0;
   width: 100%;
   position: relative;

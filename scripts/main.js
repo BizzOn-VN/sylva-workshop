@@ -21,6 +21,14 @@ function clk_function1(){
 function clk_function(){
      window.open('https://docs.google.com/forms/d/e/1FAIpQLScFLRSVmFgce0SlDVNdCIX8cKrvYYaXQutIh0Q85mvhJUNsjg/viewform', '_blank');
 }
+
+$('.close-btn').on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $(this).parent().hide();
+        $.fancybox.close();
+        $("#popup-register").fancybox().trigger('click');
+});
 $('#popup-slider .owl-carousel').owlCarousel({
     loop:false,
     margin:0,
