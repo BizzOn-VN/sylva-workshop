@@ -2188,6 +2188,12 @@ p.error {
     height: 5vw;
     left: 0.2em;
   }
+  .popup-slider .smd-register a{
+    width: 70%;
+    display: table;
+    margin: 0 auto;
+            padding: 3vw 2vw 3.2vw 2vw;
+  }
 }
 .poup-sale{
 /*  display: none;*/
@@ -2278,7 +2284,7 @@ position: absolute;
 @media screen and (max-width: 768px) {
   .poup-sale{
     width: 100%;
-    height: 123.5vw;
+    height: 100vw;
   }
   .poup-sale .top .text-1{
     font-size: 5.9vw;
