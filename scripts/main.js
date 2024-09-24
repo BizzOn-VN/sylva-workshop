@@ -53,7 +53,11 @@ $('.blk-event .owl-carousel').owlCarousel({
     dots:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            dots:false,
+            stagePadding: 60,
+            loop:true,
+            margin:10
         },
         768:{
             items:5

@@ -2940,6 +2940,12 @@ position: absolute;
   .blk-event .top-text{
     margin: 0 0 0.3em;
   }
+ /* .blk-event .owl-carousel.owl-drag .owl-item.active{
+    transform: scale(1.2);
+  }
+  .blk-event .owl-carousel .owl-stage-outer{
+    padding: 2em 0;
+  }*/
 }
 /*.poup-show-more{
   max-width: 600px;
