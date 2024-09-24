@@ -46,7 +46,23 @@ $('#popup-slider .owl-carousel').owlCarousel({
         }
     }
 })
-
+$('.blk-event .owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:5
+        },
+        1000:{
+            items:5
+        }
+    }
+})
 jQuery(document).on("ready",function () {
 	
 });
