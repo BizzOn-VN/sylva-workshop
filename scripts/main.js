@@ -51,6 +51,7 @@ $('.blk-event .owl-carousel').owlCarousel({
     margin:10,
     nav:false,
     dots:true,
+    lazyLoad:true,
     responsive:{
         0:{
             items:1,
