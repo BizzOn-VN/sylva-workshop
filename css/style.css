@@ -2105,6 +2105,9 @@ p.error {
 .item-ct img{
   margin: 0 0 2em;
 }
+.popup-slider{
+  display: none;
+}
 .popup-slider .smd-register a{
   background: #f0c456;
   color: #45512f;
