@@ -2967,13 +2967,18 @@ position: absolute;
 }
 .form-rgt input{
   width: 100%;
-  border: 1px solid #333;
+  border: 1px solid #CFD9DB;
   height: 2em;
-  border-radius: 0.2em;
+  border-radius: 0.5em;
   padding: 0 0.5em;
+  color: #333;
+}
+.form-rgt input::placeholder{
+  color: #929292;
 }
 .form-rgt .btn-submit{
-  background: #f9da74;
+  background: #FDBF0F;
+  color: #114E56;
   border: none;
   display: table;
   height: 2.5em;
@@ -2981,4 +2986,5 @@ position: absolute;
   margin: 1.6em auto 0 auto;
   border-radius: 0.5em;
   text-transform: uppercase;
+  font-family: "UTMAvoBold";
 }
