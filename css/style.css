@@ -2954,3 +2954,31 @@ position: absolute;
   max-width: 600px;
   display: none;
 }*/
+.popup-form-register .logo-rgt{
+  display: table;
+  margin: 0 auto;
+  width: 5em;
+}
+.popup-form-register .content .text{
+  margin: 0 0 1.5em;
+}
+.form-rgt .md-row{
+  margin: 0 0 1em;
+}
+.form-rgt input{
+  width: 100%;
+  border: 1px solid #333;
+  height: 2em;
+  border-radius: 0.2em;
+  padding: 0 0.5em;
+}
+.form-rgt .btn-submit{
+  background: #f9da74;
+  border: none;
+  display: table;
+  height: 2.5em;
+  padding: 0 2em;
+  margin: 1.6em auto 0 auto;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+}

@@ -214,7 +214,7 @@ $(".more-text").click(function(){
 $(".gg-more").click(function(){
     $(this).parent(".info").toggleClass("more");
 })
-$("#popup-slider").fancybox().trigger('click');
+$("#popup-form-register").fancybox().trigger('click');
 // $("#poup-cca").fancybox().trigger('click');
 
 $('.ui.dropdown')
